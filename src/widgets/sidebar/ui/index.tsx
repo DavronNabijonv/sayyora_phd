@@ -18,7 +18,7 @@ const Sidebar = () => {
     } else {
       openSidebar();
     }
-  }, []);
+  }, [openSidebar, closeSidebar]);
 
   return (
     <div

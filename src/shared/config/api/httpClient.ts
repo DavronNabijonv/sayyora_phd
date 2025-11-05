@@ -18,7 +18,7 @@ httpClient.interceptors.request.use(
     try {
       language = (await getLocale()) as LanguageRoutes;
     } catch (e) {
-      console.log('error', e);
+      console.error('error', e);
       language = getLocaleCS() || LanguageRoutes.UZ;
     }
 

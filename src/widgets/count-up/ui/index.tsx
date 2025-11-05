@@ -23,7 +23,7 @@ export const CountUpMotion = ({
     });
 
     return controls.stop;
-  }, [to, duration]);
+  }, [to, duration, count]);
 
   return <motion.span className={className}>{display}</motion.span>;
 };

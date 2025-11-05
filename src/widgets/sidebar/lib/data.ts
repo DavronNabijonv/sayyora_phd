@@ -70,8 +70,8 @@ export const sidebarMenuData: SidebarMenuItem[] = [
     icon: 'Cctv',
     children: [
       { label: 'Telegramm', link: '/onlayn-kuzatuvlar/telegram' },
-      { label: 'YouTobe', link: '/onlayn-kuzatuvlar/instagram' },
-      { label: 'Instagramm', link: '/onlayn-kuzatuvlar/youTobe' },
+      { label: 'YouTobe', link: '/onlayn-kuzatuvlar/youTobe' },
+      { label: 'Instagramm', link: '/onlayn-kuzatuvlar/instagram' },
     ],
   },
   {

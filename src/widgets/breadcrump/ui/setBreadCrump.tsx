@@ -38,7 +38,7 @@ const LocaleAwareBreadcrumbSetter = () => {
     ];
 
     setCrumbs(finalCrumbs);
-  }, [pathname]);
+  }, [pathname, setCrumbs]);
 
   return null;
 };
