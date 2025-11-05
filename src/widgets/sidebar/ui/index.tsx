@@ -1,11 +1,11 @@
 'use client';
-import { PRODUCT_INFO } from '@/shared/constants/data';
+//import { PRODUCT_INFO } from '@/shared/constants/data';
 import { ArrowLeft } from 'lucide-react';
 import React, { useEffect } from 'react';
 import { sidebarMenuData } from '../lib/data';
 import SidebarBtn from './SidebarBtn';
 import useSidebarStore from '@/shared/store/sidebarSore';
-import Image from 'next/image';
+//import Image from 'next/image';
 import { cn } from '@/shared/lib/utils';
 
 const Sidebar = () => {
@@ -28,13 +28,14 @@ const Sidebar = () => {
       )}
     >
       <div className="px-[15px] py-[10px] flex justify-between items-center gap-1 border-b">
-        <Image
+        {/* <Image
           className="h-[40px] w-[150px] object-contain"
           src={PRODUCT_INFO.logoAside}
           alt={PRODUCT_INFO.name}
           width={500}
           height={500}
-        />
+        /> */}
+        <p className="text-2xl text-blue-500 font-semibold">Oila</p>
         <button
           onClick={closeSidebar}
           className="w-[35px] h-[35px] active:bg-indigo-100 duration-100 flex justify-center items-center cursor-pointer rounded-sm hover:bg-indigo-50 text-indigo-500"

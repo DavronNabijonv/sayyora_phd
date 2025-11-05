@@ -48,13 +48,14 @@ const Navbar = () => {
               width={42}
               height={50}
             />
-            <Image
+            {/* <Image
               className="max-h-[42px] hidden md:block"
               src={PRODUCT_INFO.logoWhite}
               alt={PRODUCT_INFO.name}
               width={150}
               height={50}
-            />
+            /> */}
+            <p className="text-2xl text-white font-semibold"> Oila dasturi</p>
           </div>
         </div>
 

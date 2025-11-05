@@ -11,7 +11,7 @@ const httpClient = axios.create({
 
 httpClient.interceptors.request.use(
   async (config) => {
-    console.log(`API REQUEST to ${config.url}`, config);
+    // console.log(`API REQUEST to ${config.url}`, config);
 
     // Language configs
     let language = LanguageRoutes.UZ;

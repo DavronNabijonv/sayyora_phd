@@ -24,69 +24,85 @@ export const breadcrumbMap: Record<
 
   '/fan-hujjatlar/fan-dasturi': [
     {
-      label: 'Fan meyyoriy hujjatlari',
+      label: 'Innavatsion oila',
       icon: <NotebookPen size={16} />,
       href: '#',
     },
     {
-      label: 'Fan dasturi',
+      label: 'Fan meyoriy hujjatlar',
       icon: <NotebookPen size={16} />,
       href: '/fan-hujjatlar/fan-dasturi',
     },
   ],
   '/fan-hujjatlar/fan-sillabusi': [
     {
-      label: 'Fan meyyoriy hujjatlari',
+      label: 'Innavatsion oila',
       icon: <NotebookPen size={16} />,
       href: '#',
     },
     {
-      label: 'Fan sillabusi',
+      label: 'Fan meyoriy hujjatlar',
       icon: <NotebookPen size={16} />,
       href: '/fan-hujjatlar/fan-sillabusi',
     },
   ],
   '/fan-hujjatlar/glossary': [
     {
-      label: 'Fan meyyoriy hujjatlari',
+      label: 'Innavatsion oila',
       icon: <NotebookPen size={16} />,
       href: '#',
     },
     {
-      label: 'Glossariy',
+      label: 'Fan meyoriy hujjatlar',
       icon: <NotebookPen size={16} />,
       href: '/fan-hujjatlar/glossary',
     },
   ],
 
   '/fan-malumotlari/maruza': [
-    { label: "Fan ma'lumotlari", icon: <BookMarked size={16} />, href: '#' },
     {
-      label: "Ma'ruzalar",
+      label: 'Tarbiyaviy transfarmatsiya',
+      icon: <BookMarked size={16} />,
+      href: '#',
+    },
+    {
+      label: "Fan ma'lumotlari",
       icon: <BookMarked size={16} />,
       href: '/fan-malumotlari/maruza',
     },
   ],
   '/fan-malumotlari/amaliy': [
-    { label: "Fan ma'lumotlari", icon: <BookMarked size={16} />, href: '#' },
     {
-      label: "Amaliy mashg'ulotlar",
+      label: 'Tarbiyaviy transfarmatsiya',
+      icon: <BookMarked size={16} />,
+      href: '#',
+    },
+    {
+      label: "Fan ma'lumotlari",
       icon: <BookMarked size={16} />,
       href: '/fan-malumotlari/amaliy',
     },
   ],
   '/fan-malumotlari/labaratorya': [
-    { label: "Fan ma'lumotlari", icon: <BookMarked size={16} />, href: '#' },
     {
-      label: 'Labaratorya',
+      label: 'Tarbiyaviy transfarmatsiya',
+      icon: <BookMarked size={16} />,
+      href: '#',
+    },
+    {
+      label: "Fan ma'lumotlari",
       icon: <BookMarked size={16} />,
       href: '/fan-malumotlari/labaratorya',
     },
   ],
   '/fan-malumotlari/mustaqil': [
-    { label: "Fan ma'lumotlari", icon: <BookMarked size={16} />, href: '#' },
     {
-      label: 'Mustaqil ish',
+      label: 'Tarbiyaviy transfarmatsiya',
+      icon: <BookMarked size={16} />,
+      href: '#',
+    },
+    {
+      label: "Fan ma'lumotlari",
       icon: <BookMarked size={16} />,
       href: '/fan-malumotlari/mustaqil',
     },
@@ -94,7 +110,7 @@ export const breadcrumbMap: Record<
 
   '/darslik-adabiyot': [
     {
-      label: 'Darsliklar va adabiyotlar',
+      label: 'Pedagogik yangilanish',
       icon: <BookOpenText size={16} />,
       href: '/darslik-adabiyot',
     },
@@ -102,49 +118,49 @@ export const breadcrumbMap: Record<
 
   '/videodarslar': [
     {
-      label: 'Video darslar',
+      label: 'Intellektual tarbiya',
       icon: <Clapperboard size={16} />,
       href: '/videodarslar',
     },
   ],
   '/fotogalereya': [
     {
-      label: 'Fotogalereya va animatsiyalar',
+      label: 'Zamonaviy ota-ona',
       icon: <ImageDown size={16} />,
       href: '/fotogalereya',
     },
   ],
   '/osmon-xaritasi': [
     {
-      label: 'Osmon xaritasi',
+      label: 'Ota-onalar sinergiyasi',
       icon: <Telescope size={16} />,
       href: '/osmon-xaritasi',
     },
   ],
   '/astronomik-ilovalar': [
     {
-      label: "Astronomik o'quv ilovalari",
+      label: 'Axborot tarbiyasi',
       icon: <Layers size={16} />,
       href: '/astronomik-ilovalar',
     },
   ],
   '/virtual-labaratorya': [
     {
-      label: 'Virtual labaratoryalar',
+      label: 'Rivojlanuvchi oila',
       icon: <Microscope size={16} />,
       href: '/virtual-labaratorya',
     },
   ],
   '/ilimiy-ilovalar': [
     {
-      label: 'Ilimiy tadqiqot ilovalari',
+      label: 'Tarbiyaviy innovatsiya',
       icon: <Album size={16} />,
       href: '/ilimiy-ilovalar',
     },
   ],
   '/onlayn-kuzatuvlar': [
     {
-      label: 'Onlayn kuzatuvlar',
+      label: 'Ijtimoiy tarmoqlar',
       icon: <Cctv size={16} />,
       href: '/onlayn-kuzatuvlar',
     },

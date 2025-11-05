@@ -12,8 +12,8 @@ export const sidebarMenuData: SidebarMenuItem[] = [
     link: '/',
   },
   {
-    label: 'Fan meyyoriy hujjatlari',
-    icon: 'NotebookPen',
+    label: 'Innavatsion oila',
+    icon: 'Atom',
     children: [
       { label: 'Fan dasturi', link: '/fan-hujjatlar/fan-dasturi' },
       { label: 'Fan sillabusi', link: '/fan-hujjatlar/fan-sillabusi' },
@@ -21,8 +21,8 @@ export const sidebarMenuData: SidebarMenuItem[] = [
     ],
   },
   {
-    label: "Fan ma'lumotlari",
-    icon: 'BookMarked',
+    label: 'Tarbiyaviy transfarmatsiya',
+    icon: 'RefreshCw',
     children: [
       { label: "Ma'ruzalar", link: '/fan-malumotlari/maruza' },
       { label: "Amaliy mashg'ulotlar", link: '/fan-malumotlari/amaliy' },
@@ -31,44 +31,48 @@ export const sidebarMenuData: SidebarMenuItem[] = [
     ],
   },
   {
-    label: 'Darsliklar va adabiyotlar',
-    icon: 'BookOpenText',
+    label: 'Pedagogik yangilanish',
+    icon: 'BookOpen',
     link: '/darslik-adabiyot',
   },
   {
-    label: 'Video darslar',
-    icon: 'Clapperboard',
+    label: 'Intellektual tarbiya',
+    icon: 'Brain',
     link: '/videodarslar',
   },
   {
-    label: 'Fotogalereya va animatsiyalar',
-    icon: 'ImageDown',
+    label: 'Zamonaviy ota-ona',
+    icon: 'Users2',
     link: '/fotogalereya',
   },
   {
-    label: 'Osmon xaritasi',
-    icon: 'Telescope',
+    label: 'Ota-onalar sinergiyasi',
+    icon: 'Handshake',
     link: '/osmon-xaritasi',
   },
   {
-    label: "Astronomik o'quv ilovalari",
-    icon: 'Layers',
+    label: 'Axborot tarbiyasi',
+    icon: 'MonitorSmartphone',
     link: '/astronomik-ilovalar',
   },
   {
-    label: 'Virtual labaratoryalar',
-    icon: 'Microscope',
+    label: 'Rivojlanuvchi oila',
+    icon: 'Sprout',
     link: '/virtual-labaratorya',
   },
   {
-    label: 'Ilimiy tadqiqot ilovalari',
-    icon: 'Album',
+    label: 'Tarbiyaviy innovatsiya',
+    icon: 'Rocket',
     link: '/ilimiy-ilovalar',
   },
   {
-    label: 'Onlayn kuzatuvlar',
+    label: 'Ijtimoiy tarmoqlar',
     icon: 'Cctv',
-    link: '/onlayn-kuzatuvlar',
+    children: [
+      { label: 'Telegramm', link: '/onlayn-kuzatuvlar/telegram' },
+      { label: 'YouTobe', link: '/onlayn-kuzatuvlar/instagram' },
+      { label: 'Instagramm', link: '/onlayn-kuzatuvlar/youTobe' },
+    ],
   },
   {
     label: 'Testlar',

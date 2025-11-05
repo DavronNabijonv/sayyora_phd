@@ -36,3 +36,11 @@ export const statCardData = [
     gradientTo: '#0945ea',
   },
 ];
+
+export const boshSahifa = [
+  {
+    title: 'Intellektual tarbiya',
+    psth: '/videodarslar',
+    gradient: '',
+  },
+];
