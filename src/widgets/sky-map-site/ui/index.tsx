@@ -1,7 +1,7 @@
-// &aposuse client&apos;
+// 'use client';
 
-// // import { skyMapSites } from &apos../lib/data&apos;
-// // import SkyMapSiteCard from &apos./SkyMapSiteCard&apos;
+// // import { skyMapSites } from '../lib/data';
+// // import SkyMapSiteCard from './SkyMapSiteCard';
 
 // export default function SkyMapPage() {
 //   return (
@@ -16,6 +16,8 @@
 //     </div>
 //   );
 // }
+
+/* eslint-disable react/no-unescaped-entities */
 
 'use client';
 
@@ -33,7 +35,7 @@ export default function SkyMapPage() {
               Ota-Ona <span className="text-indigo-600">Sinergiyasi</span>
             </h1>
             <p className="mt-4 text-lg text-neutral-600">
-              Ota va onaning uyg&aposun hamkorligi — farzand uchun ishonchli,
+              Ota va onaning uyg'un hamkorligi — farzand uchun ishonchli,
               hissiy va axloqiy muhit yaratadi. Bu sahifada konsept, amaliy
               maslahatlar, taqqoslamalar va multimedia resurslari jamlangan.
             </p>
@@ -43,7 +45,7 @@ export default function SkyMapPage() {
                 href="#definition"
                 className="inline-block px-4 py-2 bg-indigo-600 text-white rounded-lg shadow hover:shadow-md"
               >
-                To&aposliq ta&aposrif
+                To'liq ta'rif
               </a>
               <a
                 href="#comparison"
@@ -68,7 +70,7 @@ export default function SkyMapPage() {
               </h3>
               <p className="text-sm text-neutral-500 mt-2">
                 1 + 1 = 3 tamoyili: birgalikdagi tarbiya yakka tarbiya
-                natijasidan ko&aposproq kuchga ega bo&aposladi.
+                natijasidan ko'proq kuchga ega bo'ladi.
               </p>
             </div>
           </div>
@@ -79,34 +81,34 @@ export default function SkyMapPage() {
           id="definition"
           className="bg-white rounded-2xl p-8 shadow mb-8"
         >
-          <h2 className="text-2xl font-bold">Oddiy ta&aposrif</h2>
+          <h2 className="text-2xl font-bold">Oddiy ta'rif</h2>
           <p className="mt-3 text-neutral-600">
-            Ota-ona sinergiyasi — bu ota va onaning o&aposzaro hamkorligi, fikr,
-            qaror va harakatlaridagi uyg&aposunlik orqali farzandga barqaror
+            Ota-ona sinergiyasi — bu ota va onaning o'zaro hamkorligi, fikr,
+            qaror va harakatlaridagi uyg'unlik orqali farzandga barqaror
             psixologik, hissiy va axloqiy muhit yaratishidir.
           </p>
 
           <div className="mt-6 grid md:grid-cols-3 gap-4">
             <div className="p-4 bg-indigo-50 rounded-lg">
-              <h4 className="font-semibold">Asosiy g&aposoya</h4>
+              <h4 className="font-semibold">Asosiy g'oya</h4>
               <p className="text-sm text-neutral-600 mt-2">
-                Sinergiya orqali ota-ona tarbiyada bir yo&aposlni tanlab, oilada
-                barqarorlikni ta&aposminlaydi.
+                Sinergiya orqali ota-ona tarbiyada bir yo'lni tanlab, oilada
+                barqarorlikni ta'minlaydi.
               </p>
             </div>
 
             <div className="p-4 bg-emerald-50 rounded-lg">
               <h4 className="font-semibold">Nega muhim?</h4>
               <p className="text-sm text-neutral-600 mt-2">
-                Uyg&aposun tarbiya bola ruhiyatini mustahkamlaydi, xavfsizlik va
-                barqaror o&aposqish muhitini beradi.
+                Uyg'un tarbiya bola ruhiyatini mustahkamlaydi, xavfsizlik va
+                barqaror o'qish muhitini beradi.
               </p>
             </div>
 
             <div className="p-4 bg-yellow-50 rounded-lg">
               <h4 className="font-semibold">Esda tuting</h4>
               <p className="text-sm text-neutral-600 mt-2">
-                Sinergiya ota va onaning rollarini to&aposg&aposri taqsimlash
+                Sinergiya ota va onaning rollarini to'g'ri taqsimlash
                 orqali mustahkamlanadi.
               </p>
             </div>
@@ -117,27 +119,27 @@ export default function SkyMapPage() {
         <section className="grid md:grid-cols-2 gap-6 mb-8">
           <div className="bg-white p-6 rounded-2xl shadow">
             <h3 className="text-xl font-semibold mb-3">
-              Sinergiya so&aposzining ma&aposnosi
+              Sinergiya so'zining ma'nosi
             </h3>
             <p className="text-neutral-600">
               Sinergiya — bir nechta kuch birlashganda ularning umumiy natijasi
-              alohida kuchlarning yig&aposindisidan ko&aposproq bo&aposlishi
+              alohida kuchlarning yig'indisidan ko'proq bo'lishi
               hodisasi.
             </p>
             <p className="mt-4 text-sm text-neutral-500">
-              Qisqasi: <strong>1 + 1 = 3</strong> — ya&aposni ota va ona
-              birgalikda farzand tarbiyasida kuchli ta&apossir qoldiradi.
+              Qisqasi: <strong>1 + 1 = 3</strong> — ya'ni ota va ona
+              birgalikda farzand tarbiyasida kuchli ta'sir qoldiradi.
             </p>
           </div>
 
           <div className="bg-white p-6 rounded-2xl shadow">
             <h3 className="text-xl font-semibold mb-3">Asosiy belgilar</h3>
             <ul className="space-y-2 text-neutral-600">
-              <li>• Bir xil yo&aposnalishda tarbiya</li>
+              <li>• Bir xil yo'nalishda tarbiya</li>
               <li>• Farzand oldida qarama-qarshi gapirmaslik</li>
               <li>• Bir-birini hurmat qilish</li>
-              <li>• Rolni to&aposg&aposri taqsimlash</li>
-              <li>• Qo&aposllab-quvvatlash</li>
+              <li>• Rolni to'g'ri taqsimlash</li>
+              <li>• Qo'llab-quvvatlash</li>
             </ul>
           </div>
         </section>
@@ -148,7 +150,7 @@ export default function SkyMapPage() {
           className="bg-white p-6 rounded-2xl shadow mb-8"
         >
           <h2 className="text-2xl font-bold mb-4">
-            Sinergiya mavjud vs sinergiya yo&aposq
+            Sinergiya mavjud vs sinergiya yo'q
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="p-5 rounded-lg border border-emerald-100">
@@ -163,7 +165,7 @@ export default function SkyMapPage() {
             </div>
             <div className="p-5 rounded-lg border border-red-100">
               <h4 className="font-semibold text-rose-700">
-                Sinergiya yo&aposq
+                Sinergiya yo'q
               </h4>
               <ul className="mt-3 text-neutral-600 space-y-2">
                 <li>• Beqaror tarbiya</li>
@@ -179,22 +181,22 @@ export default function SkyMapPage() {
           <h2 className="text-2xl font-bold">Amaliy maslahatlar</h2>
           <ol className="mt-3 list-decimal ml-5 text-neutral-600 space-y-3">
             <li>
-              <strong>Muloqotni yo&aposlga qo&aposying:</strong> oila
-              majlislarini haftada bir o&apostkazib, tarbiya va qoidalarni
+              <strong>Muloqotni yo'lga qo'ying:</strong> oila
+              majlislarini haftada bir o'tkazib, tarbiya va qoidalarni
               muhokama qiling.
             </li>
             <li>
-              <strong>Qoida va chegara:</strong> farzand bilan bog&aposliq
-              qoidalar bir xil bo&aposlishi kerak — ota va ona orasida kelishuv
-              bo&aposlsin.
+              <strong>Qoida va chegara:</strong> farzand bilan bog'liq
+              qoidalar bir xil bo'lishi kerak — ota va ona orasida kelishuv
+              bo'lsin.
             </li>
             <li>
-              <strong>Hissiy qo&aposllab-quvvatlash:</strong> bir-biringizni
-              qo&aposllab-quvvatlang, farzand oldida iroda va hurmatni saqlang.
+              <strong>Hissiy qo'llab-quvvatlash:</strong> bir-biringizni
+              qo'llab-quvvatlang, farzand oldida iroda va hurmatni saqlang.
             </li>
             <li>
-              <strong>Yaxshi namuna:</strong> ota-onalar o&aposzaro hurmatni
-              ko&aposrsatsa, bola shuni o&aposrganadi.
+              <strong>Yaxshi namuna:</strong> ota-onalar o'zaro hurmatni
+              ko'rsatsa, bola shuni o'rganadi.
             </li>
           </ol>
         </section>
@@ -290,13 +292,13 @@ export default function SkyMapPage() {
               href="#"
               className="inline-block px-6 py-3 bg-emerald-600 text-white rounded-lg"
             >
-              Ko&aposproq resurslar
+              Ko'proq resurslar
             </a>
           </div>
         </section>
 
         <footer className="text-center text-sm text-neutral-500 py-6">
-          © {new Date().getFullYear()} Ota-Ona Sinergiyasi — Ta&aposlim resursi
+          © {new Date().getFullYear()} Ota-Ona Sinergiyasi — Ta'lim resursi
         </footer>
       </div>
     </main>

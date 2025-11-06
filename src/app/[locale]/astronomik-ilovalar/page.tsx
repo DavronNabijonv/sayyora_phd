@@ -12,6 +12,8 @@
 
 // export default page;
 
+/* eslint-disable react/no-unescaped-entities */
+
 'use client';
 
 import { motion } from 'framer-motion';
@@ -49,9 +51,9 @@ export default function page() {
           🇺🇿 O‘zbekiston Respublikasining Oila kodeksi
         </h1>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-          Ushbu sahifada Oila kodeksining asosiy bo&aposlimlari bilan tanishing.
-          Har bir bo&aposlim uchun &quotKo&aposproq o&aposqish&quot tugmasini
-          bosish orqali rasmiy <strong>lex.uz</strong> manbaiga o&apostishingiz
+          Ushbu sahifada Oila kodeksining asosiy bo'limlari bilan tanishing.
+          Har bir bo'lim uchun &quotKo'proq o'qish&quot tugmasini
+          bosish orqali rasmiy <strong>lex.uz</strong> manbaiga o'tishingiz
           mumkin.
         </p>
       </motion.div>
@@ -79,7 +81,7 @@ export default function page() {
               target="_blank"
               className="mt-6 inline-block text-center bg-sky-600 hover:bg-sky-700 text-white font-medium py-2 px-4 rounded-lg transition-colors"
             >
-              Ko&aposproq o&aposqish →
+              Ko'proq o'qish →
             </Link>
           </motion.div>
         ))}
@@ -96,9 +98,9 @@ export default function page() {
           🏛️ Oila kodeksi haqida
         </h3>
         <p className="text-gray-700 leading-relaxed text-lg">
-          O&aposzbekiston Respublikasining Oila kodeksi — oilaviy munosabatlarni
+          O'zbekiston Respublikasining Oila kodeksi — oilaviy munosabatlarni
           tartibga soluvchi asosiy hujjatdir. U oilaning mustahkamligi, onalik
-          va otalikni himoya qilish, farzandlar manfaatini ta&aposminlash, er va
+          va otalikni himoya qilish, farzandlar manfaatini ta'minlash, er va
           xotin teng huquqliligini kafolatlaydi.
         </p>
       </motion.div>

@@ -7,6 +7,14 @@ type Props = {
 };
 
 const VideoLessonGrid: React.FC<Props> = ({ lessons }) => {
+  function toEmbedUrl(url: string): string {
+    const embedUrl = url
+      .replace('watch?v=', 'embed/')
+      .replace('shorts/', 'embed/');
+    console.log(embedUrl);
+    return embedUrl;
+  }
+
   return (
     <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] xl:grid-cols-[repeat(auto-fill,minmax(400px,1fr))]  gap-4">
       {lessons.map((lesson) => (
@@ -17,7 +25,7 @@ const VideoLessonGrid: React.FC<Props> = ({ lessons }) => {
           <div className="aspect-video w-full">
             <iframe
               className="w-full h-full rounded-t-xl"
-              src={lesson.youtubeUrl}
+              src={toEmbedUrl(lesson.youtubeUrl)}
               title={lesson.title}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen

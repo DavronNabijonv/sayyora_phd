@@ -6,11 +6,11 @@ export type SidebarMenuItem = {
 };
 
 export const sidebarMenuData: SidebarMenuItem[] = [
-  {
-    label: 'Bosh sahifa',
-    icon: 'House',
-    link: '/',
-  },
+  // {
+  //   label: 'Bosh sahifa',
+  //   icon: 'House',
+  //   link: '/',
+  // },
   {
     label: 'Innavatsion oila',
     icon: 'Atom',

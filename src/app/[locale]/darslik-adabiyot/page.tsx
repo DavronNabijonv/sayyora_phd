@@ -1,19 +1,19 @@
-// &aposuse client&apos;
-// import { lectureSections } from &apos@/widgets/file-list/lib/data&apos;
-// import LectureTable from &apos@/widgets/file-list/ui&apos;
-// import LectureDetail from &apos@/widgets/file-list/ui/FileDetail&apos;
+// 'use client';
+// import { lectureSections } from '@/widgets/file-list/lib/data';
+// import LectureTable from '@/widgets/file-list/ui';
+// import LectureDetail from '@/widgets/file-list/ui/FileDetail';
 
 // export default function Page() {
-//   const basePath = &apos/darslik-adabiyot&apos;
+//   const basePath = '/darslik-adabiyot';
 //   const section = lectureSections.find((s) => s.basePath === basePath);
 
 //   if (!section) return <div className="p-4">Malumot topilmadi</div>;
 
-//   if (section.type === &apostable&apos) {
+//   if (section.type === 'table') {
 //     return <LectureTable data={section.data} basePath={section.basePath} />;
 //   }
 
-//   if (section.type === &apossingle&apos) {
+//   if (section.type === 'single') {
 //     return <LectureDetail data={section.data} basePath={section.basePath} />;
 //   }
 
@@ -22,6 +22,10 @@
 
 // pages/pedagogik-yangilanish.tsx
 //import Image from "next/image";
+
+/* eslint-disable react/no-unescaped-entities */
+
+"use client"
 
 export default function Page() {
   return (
@@ -95,9 +99,9 @@ export default function Page() {
           <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
             <h2 className="text-xl font-semibold mb-3">Misol</h2>
             <p>
-              Eskicha: &aposSen bu narsani bilmaysan&apos
+              Eskicha: 'Sen bu narsani bilmaysan'
               <br />
-              Yangilanish: &aposKeling, birgalikda bilib olaylik&apos
+              Yangilanish: 'Keling, birgalikda bilib olaylik'
             </p>
           </div>
 

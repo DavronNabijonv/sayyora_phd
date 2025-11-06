@@ -1,19 +1,19 @@
-// &aposuse client&apos;
-// import { lectureSections } from &apos@/widgets/file-list/lib/data&apos;
-// import LectureTable from &apos@/widgets/file-list/ui&apos;
-// import LectureDetail from &apos@/widgets/file-list/ui/FileDetail&apos;
+// 'use client';
+// import { lectureSections } from '@/widgets/file-list/lib/data';
+// import LectureTable from '@/widgets/file-list/ui';
+// import LectureDetail from '@/widgets/file-list/ui/FileDetail';
 
 // export default function Page() {
-//   const basePath = &apos/fan-hujjatlar/glossary&apos;
+//   const basePath = '/fan-hujjatlar/glossary';
 //   const section = lectureSections.find((s) => s.basePath === basePath);
 
 //   if (!section) return <div className="p-4">Malumot topilmadi</div>;
 
-//   if (section.type === &apostable&apos) {
+//   if (section.type === 'table') {
 //     return <LectureTable data={section.data} basePath={section.basePath} />;
 //   }
 
-//   if (section.type === &apossingle&apos) {
+//   if (section.type === 'single') {
 //     return (
 //       <LectureDetail
 //         data={section.data}
@@ -25,6 +25,8 @@
 
 //   return null;
 // }
+
+/* eslint-disable react/no-unescaped-entities */
 
 'use client';
 
@@ -43,9 +45,9 @@ export default function InnovatsionOilaPage() {
                 Innovatsion oila
               </h1>
               <p className="mt-4 text-gray-600 text-lg">
-                An&apos;analarni saqlagan holda yangiliklarni qabul qiladigan va
+                An';analarni saqlagan holda yangiliklarni qabul qiladigan va
                 farzandlarni texnologiya hamda ijodga tayyorlaydigan oila
-                modelining to&apos;liq tasviri va amaliy tavsiyalari.
+                modelining to';liq tasviri va amaliy tavsiyalari.
               </p>
 
               <div className="mt-6 flex flex-wrap gap-3">
@@ -53,7 +55,7 @@ export default function InnovatsionOilaPage() {
                   href="#definition"
                   className="px-4 py-2 bg-blue-600 text-white rounded-lg"
                 >
-                  Ta&apos;rif
+                  Ta';rif
                 </a>
                 <a
                   href="#benefits"
@@ -77,7 +79,7 @@ export default function InnovatsionOilaPage() {
                   Infografika: Innovatsion oilaning asoslari
                 </h3>
                 <p className="text-sm text-gray-500 mt-2">
-                  Oila ichida bilim, texnologiya va madaniyat uyg&apos;unligi.
+                  Oila ichida bilim, texnologiya va madaniyat uyg';unligi.
                 </p>
               </div>
             </div>
@@ -88,9 +90,9 @@ export default function InnovatsionOilaPage() {
             id="definition"
             className="bg-white rounded-2xl p-6 shadow mb-6"
           >
-            <h2 className="text-2xl font-semibold">Oddiy ta&apos;rif</h2>
+            <h2 className="text-2xl font-semibold">Oddiy ta';rif</h2>
             <p className="mt-3 text-gray-700">
-              Innovatsion oila — bu yangi g&apos;oyalar va texnologiyalarni
+              Innovatsion oila — bu yangi g';oyalar va texnologiyalarni
               ongli ravishda hayotga joriy etuvchi, farzandlarini ijodkor va
               zamonaviy fikrlaydigan insonlar qilib tarbiyalaydigan oila.
             </p>
@@ -104,9 +106,9 @@ export default function InnovatsionOilaPage() {
               </div>
 
               <div className="p-4 bg-green-50 rounded-lg">
-                <h4 className="font-semibold">Texnologiyani qo&apos;llash</h4>
+                <h4 className="font-semibold">Texnologiyani qo';llash</h4>
                 <p className="text-sm text-gray-600 mt-2">
-                  Qurilmalar va xizmatlar ta&apos;lim va ijodda vosita sifatida
+                  Qurilmalar va xizmatlar ta';lim va ijodda vosita sifatida
                   ishlatiladi.
                 </p>
               </div>
@@ -114,8 +116,8 @@ export default function InnovatsionOilaPage() {
               <div className="p-4 bg-yellow-50 rounded-lg">
                 <h4 className="font-semibold">Growth mindset</h4>
                 <p className="text-sm text-gray-600 mt-2">
-                  Xato — o&apos;rganish uchun imkoniyat, o&apos;sishga
-                  yo&apos;naltirilgan yondashuv.
+                  Xato — o';rganish uchun imkoniyat, o';sishga
+                  yo';naltirilgan yondashuv.
                 </p>
               </div>
             </div>
@@ -130,8 +132,8 @@ export default function InnovatsionOilaPage() {
               <ul className="mt-4 list-disc list-inside space-y-2 text-gray-700">
                 <li>Mustaqil va ijodkor farzandlar</li>
                 <li>Ota-onaning doimiy rivojlanishi (lifelong learning)</li>
-                <li>Jamiyatga ijobiy ta&apos;sir — innovatsion salohiyat</li>
-                <li>Texnologiya orqali o&apos;quv resurslarga kirish</li>
+                <li>Jamiyatga ijobiy ta';sir — innovatsion salohiyat</li>
+                <li>Texnologiya orqali o';quv resurslarga kirish</li>
               </ul>
             </div>
 
@@ -141,7 +143,7 @@ export default function InnovatsionOilaPage() {
                 <li>EQ (hissiy intellekt) va IQ muvozanati</li>
                 <li>Uyda muammolarni hal qilish madaniyati</li>
                 <li>
-                  Yoshlarni startap, ilm va kreativlikka yo&apos;naltirish
+                  Yoshlarni startap, ilm va kreativlikka yo';naltirish
                 </li>
               </ol>
             </div>
@@ -152,8 +154,8 @@ export default function InnovatsionOilaPage() {
             <h2 className="text-2xl font-semibold mb-4">Amaliy tavsiyalar</h2>
             <ul className="list-decimal list-inside space-y-3 text-gray-700">
               <li>
-                Har hafta oilaviy &quot;learning hour&quot; o&apos;tkazing —
-                birga yangi mavzuni o&apos;rganing.
+                Har hafta oilaviy &quot;learning hour&quot; o';tkazing —
+                birga yangi mavzuni o';rganing.
               </li>
               <li>
                 Farzand bilan birgalikda kodlash, robototexnika yoki ilmiy
@@ -196,7 +198,7 @@ export default function InnovatsionOilaPage() {
           </section>
 
           <footer className="text-center text-sm text-gray-500">
-            © {new Date().getFullYear()} Innovatsion oila — Ta&apos;lim resursi
+            © {new Date().getFullYear()} Innovatsion oila — Ta'lim resursi
           </footer>
         </div>
       </main>

@@ -1,19 +1,19 @@
-// &aposuse client&apos;
-// import { lectureSections } from &apos@/widgets/file-list/lib/data&apos;
-// import LectureTable from &apos@/widgets/file-list/ui&apos;
-// import LectureDetail from &apos@/widgets/file-list/ui/FileDetail&apos;
+// 'use client';
+// import { lectureSections } from '@/widgets/file-list/lib/data';
+// import LectureTable from '@/widgets/file-list/ui';
+// import LectureDetail from '@/widgets/file-list/ui/FileDetail';
 
 // export default function Page() {
-//   const basePath = &apos/fan-malumotlari/mustaqil&apos;
+//   const basePath = '/fan-malumotlari/mustaqil';
 //   const section = lectureSections.find((s) => s.basePath === basePath);
 
 //   if (!section) return <div className="p-4">Malumot topilmadi</div>;
 
-//   if (section.type === &apostable&apos) {
+//   if (section.type === 'table') {
 //     return <LectureTable data={section.data} basePath={section.basePath} />;
 //   }
 
-//   if (section.type === &apossingle&apos) {
+//   if (section.type === 'single') {
 //     return (
 //       <LectureDetail
 //         data={section.data}
@@ -25,6 +25,8 @@
 
 //   return null;
 // }
+
+/* eslint-disable react/no-unescaped-entities */
 
 'use client';
 
@@ -40,7 +42,7 @@ export default function TarbiyaviyTransformatsiya() {
           Tarbiyaviy Transformatsiya
         </h1>
         <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-600">
-          Tarbiya va ta&aposlim jarayonida zamonaviy yondashuvlar orqali
+          Tarbiya va ta'lim jarayonida zamonaviy yondashuvlar orqali
           farzandning fikrlash, o‘zini anglash va rivojlanish jarayonini
           yangilash.
         </p>

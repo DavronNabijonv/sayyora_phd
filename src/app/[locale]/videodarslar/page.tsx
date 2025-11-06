@@ -1,5 +1,5 @@
-// import { videoLessons } from &apos@/widgets/video-lesson/lib/data&apos;
-// import VideoLessonGrid from &apos@/widgets/video-lesson/ui&apos;
+// import { videoLessons } from '@/widgets/video-lesson/lib/data';
+// import VideoLessonGrid from '@/widgets/video-lesson/ui';
 
 // const VideoDarslarPage = () => {
 //   return (
@@ -11,6 +11,8 @@
 // };
 
 // export default VideoDarslarPage;
+
+/* eslint-disable react/no-unescaped-entities */
 
 'use client';
 
@@ -31,7 +33,7 @@ export default function VideoDarslarPage() {
             <p className="mt-3 text-gray-600 max-w-3xl mx-auto">
               X, Y (Millennials), Z va Alfa (B) avlodlari: tarixiy kontekst,
               asosiy xususiyatlar, texnologiyaga munosabat va zamonaviy
-              O&aposzbek oilasiga ta&apossiri.
+              O'zbek oilasiga ta'siri.
             </p>
           </header>
 
@@ -43,7 +45,7 @@ export default function VideoDarslarPage() {
                 1965–1980 • 45–60 yosh (2025)
               </p>
               <p className="mt-3 text-sm text-gray-700">
-                Barqarorlik, sadoqat, an&aposanaviy qadriyatlar.
+                Barqarorlik, sadoqat, an'anaviy qadriyatlar.
               </p>
             </article>
 
@@ -63,8 +65,8 @@ export default function VideoDarslarPage() {
                 1997–2012 • 13–28 yosh
               </p>
               <p className="mt-3 text-sm text-gray-700">
-                Digital native, tez o&aposrganadi, ijtimoiy tarmoqlar bilan
-                uyg&aposun.
+                Digital native, tez o'rganadi, ijtimoiy tarmoqlar bilan
+                uyg'un.
               </p>
             </article>
 
@@ -74,7 +76,7 @@ export default function VideoDarslarPage() {
                 2013–hozirgacha • 0–12 yosh
               </p>
               <p className="mt-3 text-sm text-gray-700">
-                AI, AR/VR, smart-davr — texnologiya bilan tug&aposilgan.
+                AI, AR/VR, smart-davr — texnologiya bilan tug'ilgan.
               </p>
             </article>
           </section>
@@ -89,7 +91,7 @@ export default function VideoDarslarPage() {
                     1. X Avlod (Generation X)
                   </h2>
                   <p className="mt-2 text-gray-600">
-                    Tug&aposilgan yillar: <strong>1965–1980</strong>
+                    Tug'ilgan yillar: <strong>1965–1980</strong>
                   </p>
                   <p className="mt-4 text-gray-700">
                     Bu avlod Sovet davri yoki siyosiy o‘tish davrida ulg‘aygan.
@@ -117,7 +119,7 @@ export default function VideoDarslarPage() {
                   <h3 className="mt-4 font-medium">Texnologiyaga munosabati</h3>
                   <p className="text-gray-700 mt-2">
                     Kompyuter va internet ularning hayotiga keyinroq kirgan.
-                    Ular texnologiyani o&aposrganib ishlatadi — amaliy va
+                    Ular texnologiyani o'rganib ishlatadi — amaliy va
                     pragmatik yondashuv.
                   </p>
 
@@ -147,7 +149,7 @@ export default function VideoDarslarPage() {
                     2. Y Avlod (Millennials)
                   </h2>
                   <p className="mt-2 text-gray-600">
-                    Tug&aposilgan yillar: <strong>1981–1996</strong>
+                    Tug'ilgan yillar: <strong>1981–1996</strong>
                   </p>
                   <p className="mt-4 text-gray-700">
                     Y avlod — Internetning rivojlanish davrida ulg‘aygan
@@ -199,7 +201,7 @@ export default function VideoDarslarPage() {
                     3. Z Avlod (Generation Z)
                   </h2>
                   <p className="mt-2 text-gray-600">
-                    Tug&aposilgan yillar: <strong>1997–2012</strong>
+                    Tug'ilgan yillar: <strong>1997–2012</strong>
                   </p>
                   <p className="mt-4 text-gray-700">
                     Z avlod — raqamli dunyoda tug‘ilgan birinchi avlod.
@@ -211,7 +213,7 @@ export default function VideoDarslarPage() {
                   <ul className="list-disc list-inside mt-2 text-gray-700 space-y-1">
                     <li>Tez o‘zgaruvchan muhitga oson moslashadi.</li>
                     <li>
-                      E&apostibor oralig&aposi qisqa; video va qisqa formatni
+                      E'tibor oralig'i qisqa; video va qisqa formatni
                       afzal ko‘radi.
                     </li>
                     <li>
@@ -229,7 +231,7 @@ export default function VideoDarslarPage() {
                   <h3 className="mt-4 font-medium">Ishdagi qadriyatlari</h3>
                   <p className="text-gray-700 mt-2">
                     Erkinlik, ijod va natijaga yo‘naltirilgan ish uslubi;
-                    kompaniya qadriyatlariga e&apostibor beradi.
+                    kompaniya qadriyatlariga e'tibor beradi.
                   </p>
                 </div>
                 <div className="mt-4 md:mt-0 md:w-44 md:flex-shrink-0">
@@ -250,11 +252,11 @@ export default function VideoDarslarPage() {
                 <div className="md:flex-1">
                   <h2 className="text-2xl font-semibold">4. Alfa (B) Avlod</h2>
                   <p className="mt-2 text-gray-600">
-                    Tug&aposilgan yillar: <strong>2013–hozirgacha</strong>
+                    Tug'ilgan yillar: <strong>2013–hozirgacha</strong>
                   </p>
                   <p className="mt-4 text-gray-700">
-                    Alfa avlod sun&aposiy intellekt, robotika va AR/VR davrida
-                    tug&aposilgan va raqamli qurilmalar bilan erta tanishadi.
+                    Alfa avlod sun'iy intellekt, robotika va AR/VR davrida
+                    tug'ilgan va raqamli qurilmalar bilan erta tanishadi.
                   </p>
 
                   <h3 className="mt-4 font-medium">Asosiy xususiyatlari</h3>
@@ -299,7 +301,7 @@ export default function VideoDarslarPage() {
                   <thead>
                     <tr className="bg-gray-100">
                       <th className="p-3">Avlod</th>
-                      <th className="p-3">Tug&aposilgan yillar</th>
+                      <th className="p-3">Tug'ilgan yillar</th>
                       <th className="p-3">Asosiy vosita</th>
                       <th className="p-3">Texnologiyaga munosabat</th>
                       <th className="p-3">Ishdagi qadriyatlar</th>
@@ -310,14 +312,14 @@ export default function VideoDarslarPage() {
                       <td className="p-3">X</td>
                       <td className="p-3">1965–1980</td>
                       <td className="p-3">TV, radio, gazeta</td>
-                      <td className="p-3">Keyin o&aposrgangan, pragmatik</td>
+                      <td className="p-3">Keyin o'rgangan, pragmatik</td>
                       <td className="p-3">Barqarorlik, sadoqat</td>
                     </tr>
                     <tr className="border-t bg-gray-50">
                       <td className="p-3">Y (Millennials)</td>
                       <td className="p-3">1981–1996</td>
                       <td className="p-3">Internet, mobil</td>
-                      <td className="p-3">Internet bilan ulg&aposaygan</td>
+                      <td className="p-3">Internet bilan ulg'aygan</td>
                       <td className="p-3">Moslashuvchanlik, motivatsiya</td>
                     </tr>
                     <tr className="border-t">
@@ -342,12 +344,12 @@ export default function VideoDarslarPage() {
             {/* Uzbek family analysis */}
             <article className="bg-white rounded-2xl shadow p-6">
               <h2 className="text-2xl font-semibold mb-3">
-                Hozirgi O&aposzbek oilasiga ta&apossiri
+                Hozirgi O'zbek oilasiga ta'siri
               </h2>
               <p className="text-gray-700">
-                Kirish: Zamonaviy o&aposzbek oilasida bir vaqtning o&aposzida
+                Kirish: Zamonaviy o'zbek oilasida bir vaqtning o'zida
                 turli avlod vakillari yashab kelmoqda. Har bir avlod
-                o&aposzining dunyoqarashi, qadriyat tizimi va texnologiyaga
+                o'zining dunyoqarashi, qadriyat tizimi va texnologiyaga
                 munosabati bilan ajralib turadi.
               </p>
 
@@ -355,22 +357,22 @@ export default function VideoDarslarPage() {
                 <div>
                   <h3 className="font-medium">X avlod</h3>
                   <p className="text-gray-700 mt-1">
-                    An&aposanaviy qadriyatlarni saqlovchi, tartib va intizomni
-                    targ&aposib qiladi. Oila ichida axloqiy va ma&aposnaviy
+                    An'anaviy qadriyatlarni saqlovchi, tartib va intizomni
+                    targ'ib qiladi. Oila ichida axloqiy va ma'naviy
                     rolni bajaradi.
                   </p>
                 </div>
                 <div>
                   <h3 className="font-medium">Y avlod</h3>
                   <p className="text-gray-700 mt-1">
-                    Muloqotga va hissiy yaqinlikka urg&aposu beradi; an&aposana
-                    va zamonaviylikni uyg&aposunlashtirishga intiladi.
+                    Muloqotga va hissiy yaqinlikka urg'u beradi; an'ana
+                    va zamonaviylikni uyg'unlashtirishga intiladi.
                   </p>
                 </div>
                 <div>
                   <h3 className="font-medium">Z avlod</h3>
                   <p className="text-gray-700 mt-1">
-                    Erkin fikrlash, texnologiya bilan o&apossgan va global
+                    Erkin fikrlash, texnologiya bilan o'sgan va global
                     dunyoqarashni olib kiradi; muloqot madaniyatini yangilaydi.
                   </p>
                 </div>
@@ -390,12 +392,12 @@ export default function VideoDarslarPage() {
                   ochiq suhbatlar.
                 </li>
                 <li>
-                  Qadriyatlar uzluksizligini ta&aposminlash — an&aposanalarni
+                  Qadriyatlar uzluksizligini ta'minlash — an'analarni
                   moslashtirish bilan saqlab qolish.
                 </li>
                 <li>
-                  Texnologiyani tarbiya vositasi sifatida yo&aposnaltirish —
-                  o&aposqituvchi va ota-onalar uchun raqamli resurslar.
+                  Texnologiyani tarbiya vositasi sifatida yo'naltirish —
+                  o'qituvchi va ota-onalar uchun raqamli resurslar.
                 </li>
               </ul>
             </article>
@@ -403,18 +405,18 @@ export default function VideoDarslarPage() {
             {/* CTA and resources */}
             <article className="bg-white rounded-2xl shadow p-6 text-center">
               <h2 className="text-2xl font-semibold mb-3">
-                Qo&aposshimcha resurslar
+                Qo'shimcha resurslar
               </h2>
               <p className="text-gray-700 mb-4">
                 Kitoblar, maqolalar va seminarlar orqali avlodlararo muvozanatni
-                chuqurroq o&aposrganing.
+                chuqurroq o'rganing.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
                 <a
                   href="#"
                   className="px-5 py-2 bg-blue-600 text-white rounded-lg"
                 >
-                  Kitoblar ro&aposyxati
+                  Kitoblar ro'yxati
                 </a>
                 <a
                   href="#"
@@ -427,7 +429,7 @@ export default function VideoDarslarPage() {
           </section>
 
           <footer className="mt-12 text-center text-sm text-gray-500">
-            © {new Date().getFullYear()} Generational Theory — Ma&aposlumot
+            © {new Date().getFullYear()} Generational Theory — Ma'lumot
             manbai: StartUP-Invest
           </footer>
         </div>
