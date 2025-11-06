@@ -32,8 +32,8 @@ export default function VideoDarslarPage() {
             </h1>
             <p className="mt-3 text-gray-600 max-w-3xl mx-auto">
               X, Y (Millennials), Z va Alfa (B) avlodlari: tarixiy kontekst,
-              asosiy xususiyatlar, texnologiyaga munosabat va zamonaviy
-              O'zbek oilasiga ta'siri.
+              asosiy xususiyatlar, texnologiyaga munosabat va zamonaviy O'zbek
+              oilasiga ta'siri.
             </p>
           </header>
 
@@ -65,8 +65,7 @@ export default function VideoDarslarPage() {
                 1997–2012 • 13–28 yosh
               </p>
               <p className="mt-3 text-sm text-gray-700">
-                Digital native, tez o'rganadi, ijtimoiy tarmoqlar bilan
-                uyg'un.
+                Digital native, tez o'rganadi, ijtimoiy tarmoqlar bilan uyg'un.
               </p>
             </article>
 
@@ -119,8 +118,8 @@ export default function VideoDarslarPage() {
                   <h3 className="mt-4 font-medium">Texnologiyaga munosabati</h3>
                   <p className="text-gray-700 mt-2">
                     Kompyuter va internet ularning hayotiga keyinroq kirgan.
-                    Ular texnologiyani o'rganib ishlatadi — amaliy va
-                    pragmatik yondashuv.
+                    Ular texnologiyani o'rganib ishlatadi — amaliy va pragmatik
+                    yondashuv.
                   </p>
 
                   <h3 className="mt-4 font-medium">Ishdagi qadriyatlari</h3>
@@ -131,7 +130,7 @@ export default function VideoDarslarPage() {
                 </div>
                 <div className="mt-4 md:mt-0 md:w-44 md:flex-shrink-0">
                   <Image
-                    src="/telegram_baxtli_hayot.jpg"
+                    src="/alfa.jpg"
                     width={176}
                     height={176}
                     alt="Gen X"
@@ -183,7 +182,7 @@ export default function VideoDarslarPage() {
                 </div>
                 <div className="mt-4 md:mt-0 md:w-44 md:flex-shrink-0">
                   <Image
-                    src="/telegram_baxtli_hayot.jpg"
+                    src="/alfa2.jpg"
                     width={176}
                     height={176}
                     alt="Millennials"
@@ -213,8 +212,8 @@ export default function VideoDarslarPage() {
                   <ul className="list-disc list-inside mt-2 text-gray-700 space-y-1">
                     <li>Tez o‘zgaruvchan muhitga oson moslashadi.</li>
                     <li>
-                      E'tibor oralig'i qisqa; video va qisqa formatni
-                      afzal ko‘radi.
+                      E'tibor oralig'i qisqa; video va qisqa formatni afzal
+                      ko‘radi.
                     </li>
                     <li>
                       O‘z fikrini erkin bildiradi, mustaqil qaror qabul qiladi.
@@ -236,7 +235,7 @@ export default function VideoDarslarPage() {
                 </div>
                 <div className="mt-4 md:mt-0 md:w-44 md:flex-shrink-0">
                   <Image
-                    src="/telegram_baxtli_hayot.jpg"
+                    src="/alfa3.jpg"
                     width={176}
                     height={176}
                     alt="Gen Z"
@@ -281,7 +280,7 @@ export default function VideoDarslarPage() {
                 </div>
                 <div className="mt-4 md:mt-0 md:w-44 md:flex-shrink-0">
                   <Image
-                    src="/telegram_baxtli_hayot.jpg"
+                    src="/alfa4.jpg"
                     width={176}
                     height={176}
                     alt="Gen Alpha"
@@ -347,10 +346,10 @@ export default function VideoDarslarPage() {
                 Hozirgi O'zbek oilasiga ta'siri
               </h2>
               <p className="text-gray-700">
-                Kirish: Zamonaviy o'zbek oilasida bir vaqtning o'zida
-                turli avlod vakillari yashab kelmoqda. Har bir avlod
-                o'zining dunyoqarashi, qadriyat tizimi va texnologiyaga
-                munosabati bilan ajralib turadi.
+                Kirish: Zamonaviy o'zbek oilasida bir vaqtning o'zida turli
+                avlod vakillari yashab kelmoqda. Har bir avlod o'zining
+                dunyoqarashi, qadriyat tizimi va texnologiyaga munosabati bilan
+                ajralib turadi.
               </p>
 
               <div className="mt-4 grid gap-4 md:grid-cols-2">
@@ -358,15 +357,15 @@ export default function VideoDarslarPage() {
                   <h3 className="font-medium">X avlod</h3>
                   <p className="text-gray-700 mt-1">
                     An'anaviy qadriyatlarni saqlovchi, tartib va intizomni
-                    targ'ib qiladi. Oila ichida axloqiy va ma'naviy
-                    rolni bajaradi.
+                    targ'ib qiladi. Oila ichida axloqiy va ma'naviy rolni
+                    bajaradi.
                   </p>
                 </div>
                 <div>
                   <h3 className="font-medium">Y avlod</h3>
                   <p className="text-gray-700 mt-1">
-                    Muloqotga va hissiy yaqinlikka urg'u beradi; an'ana
-                    va zamonaviylikni uyg'unlashtirishga intiladi.
+                    Muloqotga va hissiy yaqinlikka urg'u beradi; an'ana va
+                    zamonaviylikni uyg'unlashtirishga intiladi.
                   </p>
                 </div>
                 <div>
@@ -429,8 +428,8 @@ export default function VideoDarslarPage() {
           </section>
 
           <footer className="mt-12 text-center text-sm text-gray-500">
-            © {new Date().getFullYear()} Generational Theory — Ma'lumot
-            manbai: StartUP-Invest
+            © {new Date().getFullYear()} Generational Theory — Ma'lumot manbai:
+            StartUP-Invest
           </footer>
         </div>
       </main>

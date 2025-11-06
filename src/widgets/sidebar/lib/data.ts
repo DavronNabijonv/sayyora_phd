@@ -60,9 +60,9 @@ export const sidebarMenuData: SidebarMenuItem[] = [
     label: 'Ijtimoiy tarmoqlar',
     icon: 'Cctv',
     children: [
-      { label: 'Telegramm', link: '/onlayn-kuzatuvlar/telegram' },
+      { label: 'Telegram', link: '/onlayn-kuzatuvlar/telegram' },
       { label: 'YouTobe', link: '/onlayn-kuzatuvlar/youTobe' },
-      { label: 'Instagramm', link: '/onlayn-kuzatuvlar/instagram' },
+      { label: 'Instagram', link: '/onlayn-kuzatuvlar/instagram' },
     ],
   },
   // {

@@ -1,5 +1,9 @@
+'use client';
+
 // import { galleryResources } from '@/widgets/galery-table/lib/data';
 // import GalleryTable from '@/widgets/galery-table/ui';
+
+import { toEmbedUrl } from '@/widgets/video-lesson/ui';
 
 // const Page = () => {
 //   return (
@@ -162,7 +166,9 @@ export default function Page() {
             <div className="w-full max-w-3xl aspect-video">
               <iframe
                 className="w-full h-full rounded-xl shadow-lg"
-                src="https://www.youtube.com/embed/8SOQduoLgRw"
+                src={toEmbedUrl(
+                  'https://youtu.be/YaokzHvJGTU?si=sRtKIOlzju7WK1uQ',
+                )}
                 title="Zamonaviy ota-ona videosi"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

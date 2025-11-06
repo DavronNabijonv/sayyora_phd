@@ -25,7 +25,9 @@
 
 /* eslint-disable react/no-unescaped-entities */
 
-"use client"
+'use client';
+
+import { toEmbedUrl } from '@/widgets/video-lesson/ui';
 
 export default function Page() {
   return (
@@ -99,9 +101,9 @@ export default function Page() {
           <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
             <h2 className="text-xl font-semibold mb-3">Misol</h2>
             <p>
-              Eskicha: 'Sen bu narsani bilmaysan'
+              Eskicha: "Sen bu narsani bilmaysan"
               <br />
-              Yangilanish: 'Keling, birgalikda bilib olaylik'
+              Yangilanish: "Keling, birgalikda bilib olaylik"
             </p>
           </div>
 
@@ -121,7 +123,9 @@ export default function Page() {
           <div className="w-full max-w-3xl aspect-video">
             <iframe
               className="w-full h-full rounded-lg shadow-lg"
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+              src={toEmbedUrl(
+                'https://youtu.be/-0tcfMhqms8?si=c5_7iSM5YjsVdKLh',
+              )}
               title="Pedagogik yangilanish video"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

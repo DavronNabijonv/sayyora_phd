@@ -1,9 +1,6 @@
-import Welcome from '@/widgets/welcome';
+//import Welcome from '@/widgets/welcome';
+import { redirect } from 'next/navigation';
 
 export default async function Home() {
-  return (
-    <div>
-      <Welcome />
-    </div>
-  );
+  redirect('/uz/fan-hujjatlar');
 }

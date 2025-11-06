@@ -48,13 +48,12 @@ export default function page() {
         transition={{ duration: 0.6 }}
       >
         <h1 className="text-4xl md:text-5xl font-bold text-sky-700 mb-4">
-          🇺🇿 O‘zbekiston Respublikasining Oila kodeksi
+          O‘zbekiston Respublikasining Oila kodeksi
         </h1>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-          Ushbu sahifada Oila kodeksining asosiy bo'limlari bilan tanishing.
-          Har bir bo'lim uchun &quotKo'proq o'qish&quot tugmasini
-          bosish orqali rasmiy <strong>lex.uz</strong> manbaiga o'tishingiz
-          mumkin.
+          Ushbu sahifada Oila kodeksining asosiy bo'limlari bilan tanishing. Har
+          bir bo'lim uchun "Ko'proq o'qish" tugmasini bosish orqali rasmiy{' '}
+          <strong>lex.uz</strong> manbaiga o'tishingiz mumkin.
         </p>
       </motion.div>
 

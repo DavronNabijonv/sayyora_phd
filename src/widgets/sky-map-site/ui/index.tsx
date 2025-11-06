@@ -23,6 +23,63 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { toEmbedUrl } from '@/widgets/video-lesson/ui';
+
+export type FAQItem = {
+  question: string;
+  answer: string;
+};
+
+export const faqItems: FAQItem[] = [
+  {
+    question: 'Sinergiyani qanday boshlash mumkin?',
+    answer:
+      'Ochiq muloqotdan boshlang — haftalik oilaviy uchrashuvlar tashkil qiling.',
+  },
+  {
+    question: 'Jamoada sinergiyani qanday kuchaytirish mumkin?',
+    answer: 'Har bir a’zoning fikrini tinglash va qadrlash muhitini yarating.',
+  },
+  {
+    question: 'Sinergiya uchun qanday qadriyatlar muhim?',
+    answer:
+      'Ishonch, hurmat va samimiy hamkorlik — bu sinergiyaning poydevori.',
+  },
+  {
+    question: 'Oilada sinergiyani qanday saqlab qolish mumkin?',
+    answer: 'Har kuni kichik, ammo doimiy muloqotni yo‘lga qo‘ying.',
+  },
+  {
+    question:
+      'Ish joyida sinergiyani yaratish uchun rahbar nima qilishi kerak?',
+    answer:
+      'Har bir xodimning kuchli tomonlarini aniqlab, ularni bir maqsadga yo‘naltirish kerak.',
+  },
+  {
+    question: 'Sinergiya paydo bo‘lishi uchun nimalardan qochish kerak?',
+    answer: 'Tanqid, ishonchsizlik va bir-birini tinglamaslikdan.',
+  },
+  {
+    question: 'Sinergiya jamoa muvaffaqiyatiga qanday ta’sir qiladi?',
+    answer:
+      'Birgalikda fikr yuritish natijasida yaxshiroq g‘oyalar va tezroq yechimlar paydo bo‘ladi.',
+  },
+  {
+    question: 'Sinergiyani boshlashda yetakchining roli qanday?',
+    answer: 'U boshqalarni ilhomlantiruvchi va birlashtiruvchi bo‘lishi kerak.',
+  },
+  {
+    question: 'Oilaviy sinergiyani bolalar bilan qanday shakllantirish mumkin?',
+    answer:
+      'Ularni qaror qabul qilish jarayoniga kichik rollar bilan qo‘shing.',
+  },
+  {
+    question:
+      'Sinergiyani mustahkamlovchi odatlarni qanday shakllantirish mumkin?',
+    answer:
+      'Har hafta kichik jamoaviy maqsadlar qo‘yib, ularni birgalikda bajarishni odat qiling.',
+  },
+];
 
 export default function SkyMapPage() {
   return (
@@ -35,8 +92,8 @@ export default function SkyMapPage() {
               Ota-Ona <span className="text-indigo-600">Sinergiyasi</span>
             </h1>
             <p className="mt-4 text-lg text-neutral-600">
-              Ota va onaning uyg'un hamkorligi — farzand uchun ishonchli,
-              hissiy va axloqiy muhit yaratadi. Bu sahifada konsept, amaliy
+              Ota va onaning uyg'un hamkorligi — farzand uchun ishonchli, hissiy
+              va axloqiy muhit yaratadi. Bu sahifada konsept, amaliy
               maslahatlar, taqqoslamalar va multimedia resurslari jamlangan.
             </p>
 
@@ -58,7 +115,7 @@ export default function SkyMapPage() {
 
           <div className="w-full md:w-96 rounded-2xl overflow-hidden shadow-lg bg-white">
             <Image
-              src="/telegram_baxtli_hayot.jpg"
+              src="/sinergiya.jpg"
               width={600}
               height={400}
               alt="Family"
@@ -108,8 +165,8 @@ export default function SkyMapPage() {
             <div className="p-4 bg-yellow-50 rounded-lg">
               <h4 className="font-semibold">Esda tuting</h4>
               <p className="text-sm text-neutral-600 mt-2">
-                Sinergiya ota va onaning rollarini to'g'ri taqsimlash
-                orqali mustahkamlanadi.
+                Sinergiya ota va onaning rollarini to'g'ri taqsimlash orqali
+                mustahkamlanadi.
               </p>
             </div>
           </div>
@@ -123,12 +180,11 @@ export default function SkyMapPage() {
             </h3>
             <p className="text-neutral-600">
               Sinergiya — bir nechta kuch birlashganda ularning umumiy natijasi
-              alohida kuchlarning yig'indisidan ko'proq bo'lishi
-              hodisasi.
+              alohida kuchlarning yig'indisidan ko'proq bo'lishi hodisasi.
             </p>
             <p className="mt-4 text-sm text-neutral-500">
-              Qisqasi: <strong>1 + 1 = 3</strong> — ya'ni ota va ona
-              birgalikda farzand tarbiyasida kuchli ta'sir qoldiradi.
+              Qisqasi: <strong>1 + 1 = 3</strong> — ya'ni ota va ona birgalikda
+              farzand tarbiyasida kuchli ta'sir qoldiradi.
             </p>
           </div>
 
@@ -164,9 +220,7 @@ export default function SkyMapPage() {
               </ul>
             </div>
             <div className="p-5 rounded-lg border border-red-100">
-              <h4 className="font-semibold text-rose-700">
-                Sinergiya yo'q
-              </h4>
+              <h4 className="font-semibold text-rose-700">Sinergiya yo'q</h4>
               <ul className="mt-3 text-neutral-600 space-y-2">
                 <li>• Beqaror tarbiya</li>
                 <li>• Bola manipulyatsion yoki isyonkor</li>
@@ -181,14 +235,12 @@ export default function SkyMapPage() {
           <h2 className="text-2xl font-bold">Amaliy maslahatlar</h2>
           <ol className="mt-3 list-decimal ml-5 text-neutral-600 space-y-3">
             <li>
-              <strong>Muloqotni yo'lga qo'ying:</strong> oila
-              majlislarini haftada bir o'tkazib, tarbiya va qoidalarni
-              muhokama qiling.
+              <strong>Muloqotni yo'lga qo'ying:</strong> oila majlislarini
+              haftada bir o'tkazib, tarbiya va qoidalarni muhokama qiling.
             </li>
             <li>
-              <strong>Qoida va chegara:</strong> farzand bilan bog'liq
-              qoidalar bir xil bo'lishi kerak — ota va ona orasida kelishuv
-              bo'lsin.
+              <strong>Qoida va chegara:</strong> farzand bilan bog'liq qoidalar
+              bir xil bo'lishi kerak — ota va ona orasida kelishuv bo'lsin.
             </li>
             <li>
               <strong>Hissiy qo'llab-quvvatlash:</strong> bir-biringizni
@@ -212,7 +264,9 @@ export default function SkyMapPage() {
               {/* YouTube iframe */}
               <iframe
                 className="w-full h-full"
-                src="https://www.youtube.com/embed/VIDEO_ID?rel=0&modestbranding=1"
+                src={toEmbedUrl(
+                  'https://youtu.be/mSlyeGv6aws?si=_nHafnkGr5i7ONg6',
+                )}
                 title="Ota-Ona sinergiyasi video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -222,7 +276,7 @@ export default function SkyMapPage() {
             <div className="grid grid-cols-3 gap-3">
               <div className="rounded-lg overflow-hidden h-28">
                 <Image
-                  src="/telegram_baxtli_hayot.jpg"
+                  src="/sinergiya2.jpg"
                   width={400}
                   height={300}
                   alt="family-1"
@@ -231,7 +285,7 @@ export default function SkyMapPage() {
               </div>
               <div className="rounded-lg overflow-hidden h-28">
                 <Image
-                  src="/telegram_baxtli_hayot.jpg"
+                  src="/sinergiya3.jpg"
                   width={400}
                   height={300}
                   alt="family-2"
@@ -240,7 +294,7 @@ export default function SkyMapPage() {
               </div>
               <div className="rounded-lg overflow-hidden h-28">
                 <Image
-                  src="/telegram_baxtli_hayot.jpg"
+                  src="/sinergiya4.jpg"
                   width={400}
                   height={300}
                   alt="family-3"
@@ -266,31 +320,27 @@ export default function SkyMapPage() {
         </section>
 
         {/* FAQ + CTA */}
-        <section className="bg-white p-6 rounded-2xl shadow mb-12">
-          <h2 className="text-2xl font-bold mb-4">Savollar va javoblar</h2>
-          <details className="mb-3">
-            <summary className="font-medium cursor-pointer">
-              Sinergiyani qanday boshlash mumkin?
-            </summary>
-            <p className="mt-2 text-neutral-600">
-              Ochiq muloqotdan boshlang: haftalik oilaviy uchrashuvlar tashkil
-              qiling.
-            </p>
-          </details>
-          <details className="mb-3">
-            <summary className="font-medium cursor-pointer">
-              Agar ota va ona fikri farq qilsa?
-            </summary>
-            <p className="mt-2 text-neutral-600">
-              Avvalo muammo haqida ochiq suhbat qiling va uchinchi taraf
-              (maslahatchi) jalb qiling.
-            </p>
-          </details>
+        <section className="bg-white p-6 rounded-2xl shadow mb-12 flex flex-col gap-5">
+          <h2 className="text-2xl font-bold mb-6 text-center">
+            Savollar va Javoblar
+          </h2>
+
+          {faqItems.map((item, idx) => (
+            <details key={idx} className="mb-3 group">
+              <summary className="text-xl font-medium cursor-pointer list-none flex justify-between items-center">
+                {item.question}
+                <span className="transition-transform duration-300 group-open:rotate-180">
+                  ▼
+                </span>
+              </summary>
+              <p className="mt-2 text-neutral-600 text-xl">{item.answer}</p>
+            </details>
+          ))}
 
           <div className="mt-6 text-center">
             <a
               href="#"
-              className="inline-block px-6 py-3 bg-emerald-600 text-white rounded-lg"
+              className="inline-block px-6 py-3 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition"
             >
               Ko'proq resurslar
             </a>

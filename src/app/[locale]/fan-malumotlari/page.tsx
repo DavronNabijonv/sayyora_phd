@@ -30,6 +30,7 @@
 
 'use client';
 
+import { toEmbedUrl } from '@/widgets/video-lesson/ui';
 import React from 'react';
 //import Image from "next/image";
 
@@ -42,9 +43,8 @@ export default function TarbiyaviyTransformatsiya() {
           Tarbiyaviy Transformatsiya
         </h1>
         <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-600">
-          Tarbiya va ta'lim jarayonida zamonaviy yondashuvlar orqali
-          farzandning fikrlash, o‘zini anglash va rivojlanish jarayonini
-          yangilash.
+          Tarbiya va ta'lim jarayonida zamonaviy yondashuvlar orqali farzandning
+          fikrlash, o‘zini anglash va rivojlanish jarayonini yangilash.
         </p>
       </section>
 
@@ -60,7 +60,7 @@ export default function TarbiyaviyTransformatsiya() {
       </section> */}
 
       {/* CONTENT SECTION */}
-      <section className="max-w-5xl mx-auto px-6 py-16 space-y-12">
+      <section className="max-w-5xl mx-auto px-6 py-8 space-y-6">
         {/* Definition */}
         <div>
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">
@@ -139,7 +139,9 @@ export default function TarbiyaviyTransformatsiya() {
           <div className="aspect-video rounded-xl overflow-hidden">
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/fb8wBq7K0Hg"
+              src={toEmbedUrl(
+                'https://youtu.be/cUCUnvYWUNg?si=nG6vXozgusDfwWVs',
+              )}
               title="Tarbiyaviy Transformatsiya Videosi"
               allowFullScreen
             ></iframe>

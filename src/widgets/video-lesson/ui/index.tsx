@@ -6,15 +6,29 @@ type Props = {
   lessons: VideoLesson[];
 };
 
-const VideoLessonGrid: React.FC<Props> = ({ lessons }) => {
-  function toEmbedUrl(url: string): string {
-    const embedUrl = url
-      .replace('watch?v=', 'embed/')
-      .replace('shorts/', 'embed/');
-    console.log(embedUrl);
-    return embedUrl;
+export function toEmbedUrl(url: string): string {
+  let videoId = '';
+
+  // watch?v=...
+  if (url.includes('watch?v=')) {
+    const params = new URL(url).searchParams;
+    videoId = params.get('v') || '';
+  }
+  // youtu.be/...
+  else if (url.includes('youtu.be/')) {
+    const pathname = new URL(url).pathname; // /videoId
+    videoId = pathname.split('/')[1] || '';
+  }
+  // shorts/...
+  else if (url.includes('youtube.com/shorts/')) {
+    const pathname = new URL(url).pathname; // /shorts/videoId
+    videoId = pathname.split('/')[2] || '';
   }
 
+  return videoId ? `https://www.youtube.com/embed/${videoId}` : '';
+}
+
+const VideoLessonGrid: React.FC<Props> = ({ lessons }) => {
   return (
     <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] xl:grid-cols-[repeat(auto-fill,minmax(400px,1fr))]  gap-4">
       {lessons.map((lesson) => (
