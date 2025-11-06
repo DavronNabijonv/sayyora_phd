@@ -14,21 +14,12 @@ export const sidebarMenuData: SidebarMenuItem[] = [
   {
     label: 'Innavatsion oila',
     icon: 'Atom',
-    children: [
-      { label: 'Fan dasturi', link: '/fan-hujjatlar/fan-dasturi' },
-      { label: 'Fan sillabusi', link: '/fan-hujjatlar/fan-sillabusi' },
-      { label: 'Glossariy', link: '/fan-hujjatlar/glossary' },
-    ],
+    link: '/fan-hujjatlar',
   },
   {
     label: 'Tarbiyaviy transfarmatsiya',
     icon: 'RefreshCw',
-    children: [
-      { label: "Ma'ruzalar", link: '/fan-malumotlari/maruza' },
-      { label: "Amaliy mashg'ulotlar", link: '/fan-malumotlari/amaliy' },
-      { label: 'Labaratorya', link: '/fan-malumotlari/labaratorya' },
-      { label: 'Mustaqil ish', link: '/fan-malumotlari/mustaqil' },
-    ],
+    link: '/fan-malumotlari',
   },
   {
     label: 'Pedagogik yangilanish',
@@ -74,14 +65,14 @@ export const sidebarMenuData: SidebarMenuItem[] = [
       { label: 'Instagramm', link: '/onlayn-kuzatuvlar/instagram' },
     ],
   },
-  {
-    label: 'Testlar',
-    icon: 'NotebookText',
-    link: '/testlar',
-  },
-  {
-    label: 'Metodik yordam',
-    icon: 'PencilRuler',
-    link: '/metodik-yordam',
-  },
+  // {
+  //   label: 'Testlar',
+  //   icon: 'NotebookText',
+  //   link: '/testlar',
+  // },
+  // {
+  //   label: 'Metodik yordam',
+  //   icon: 'PencilRuler',
+  //   link: '/metodik-yordam',
+  // },
 ];

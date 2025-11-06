@@ -1,5 +1,5 @@
 const PRODUCT_INFO = {
-  name: 'Astro-Edu',
+  name: 'Oila',
   description:
     'AstroEDU offers peer-reviewed astronomy teaching activities and resources for educators and students around the world.',
   logoWhite: '/logo-white.png',
