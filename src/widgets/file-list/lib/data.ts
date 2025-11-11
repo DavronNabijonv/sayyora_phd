@@ -14,38 +14,123 @@ export interface LectureSection {
 
 export const lectureSections: LectureSection[] = [
   {
-    label: 'Fan dasturi',
+    label: 'Muallif',
     type: 'single',
-    basePath: '/fan-hujjatlar/fan-dasturi',
+    basePath: '/fan-hujjatlar/muallif',
     data: [
       {
         id: 1,
-        title: 'Fan dasturi',
-        src: '/resource/fan-hujjatlari/fan-dasturi.PDF',
+        title: 'Muallif',
+        src: '/resource/fan-hujjatlari/muallif.PPTX',
       },
     ],
   },
   {
-    label: 'Fan sillabusi',
+    label: 'Xorij oilasidagi tarbiyavaiy hayot',
     type: 'single',
     basePath: '/fan-hujjatlar/fan-sillabusi',
     data: [
       {
         id: 1,
-        title: 'Fan sillabusi',
+        title: 'Xorij oilasidagi tarbiyasi',
         src: '/resource/fan-hujjatlari/fan-sillabusi.PDF',
       },
     ],
   },
   {
-    label: 'Glossariy',
+    // sinergiya page kirgandagi file
+    label: 'Sinergiya',
     type: 'single',
     basePath: '/fan-hujjatlar/glossary',
     data: [
       {
         id: 1,
-        title: 'Glossariy',
-        src: '/resource/fan-hujjatlari/glossary.pdf',
+        title: 'Sinergiya',
+        src: '/resource/fan-hujjatlari/Ota.pdf',
+      },
+    ],
+  },
+  {
+    label: 'Mediaxavfsizlik',
+    type: 'single',
+    basePath: '/fan-hujjatlar/mediaxavfsizlik',
+    data: [
+      {
+        id: 1,
+        title: 'Sinergiya',
+        src: '/resource/fan-hujjatlari/6.pdf',
+      },
+    ],
+  },
+  {
+    label: 'Mediaxavfsizlik',
+    type: 'single',
+    basePath: '/fan-hujjatlar/mediaxavfsizlik',
+    data: [
+      {
+        id: 1,
+        title: 'Sinergiya',
+        src: '/resource/fan-hujjatlari/6.pdf',
+      },
+    ],
+  },
+  {
+    label: '1-mavzu',
+    type: 'single',
+    basePath: '/fotogalereya/bir',
+    data: [
+      {
+        id: 1,
+        title: '1-mavzu',
+        src: '/resource/fan-hujjatlari/1_blok.pdf',
+      },
+    ],
+  },
+  {
+    label: '2-mavzu',
+    type: 'single',
+    basePath: '/fotogalereya/ikki',
+    data: [
+      {
+        id: 1,
+        title: '2-mavzu',
+        src: '/resource/fan-hujjatlari/2_blok.pdf',
+      },
+    ],
+  },
+  {
+    label: '3-mavzu',
+    type: 'single',
+    basePath: '/fotogalereya/uch',
+    data: [
+      {
+        id: 1,
+        title: '3-mavzu',
+        src: '/resource/fan-hujjatlari/3_blok.pdf',
+      },
+    ],
+  },
+  {
+    label: '4-mavzu',
+    type: 'single',
+    basePath: '/fotogalereya/tort',
+    data: [
+      {
+        id: 1,
+        title: '4-mavzu',
+        src: '/resource/fan-hujjatlari/4_blok.pdf',
+      },
+    ],
+  },
+  {
+    label: '5-mavzu',
+    type: 'single',
+    basePath: '/fotogalereya/besh',
+    data: [
+      {
+        id: 1,
+        title: '4-mavzu',
+        src: '/resource/fan-hujjatlari/5_blok.pdf',
       },
     ],
   },
@@ -125,9 +210,8 @@ export const lectureSections: LectureSection[] = [
     data: [
       {
         id: 1,
-        title:
-          'Talabalarga astronomiyaga oid rasmlar va videolarni quyidagi saytlardan',
-        src: '/resource/metodik-yordam/Talabalarga_astronomiyaga_oid_rasmlarni_va_videolarni_quyidagi_saytlardan.pdf',
+        title: 'Tahlil uchun savollar',
+        src: '/resource/metodik-yordam/savollar.pdf',
       },
     ],
   },

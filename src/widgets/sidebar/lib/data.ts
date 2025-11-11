@@ -12,9 +12,28 @@ export const sidebarMenuData: SidebarMenuItem[] = [
   //   link: '/',
   // },
   {
-    label: 'Innavatsion oila',
-    icon: 'Atom',
+    label: 'Ota-onalar sinergiyasi',
+    icon: 'Handshake',
     link: '/fan-hujjatlar',
+    children: [
+      { label: 'Muallif haqida', link: '/fan-hujjatlar/muallif' },
+      {
+        label: 'Xorij oilasidagi tarbiyaviy hayot',
+        link: '/fan-hujjatlar/xorij_tabiya',
+      },
+      {
+        label: "Ota-ona mediaxavfsizlik bo'yicha 30 ta tavsiya",
+        link: '/fan-hujjatlar/mediaxavfsizlik',
+      },
+      {
+        label: 'Ota-ona va maktab hamkorlik',
+        link: '/fan-hujjatlar/hamkorlik',
+      },
+      {
+        label: 'Psixolog va pedagogik maslahatlar',
+        link: '/fan-hujjatlar/maslahatlar',
+      },
+    ],
   },
   {
     label: 'Tarbiyaviy transfarmatsiya',
@@ -35,10 +54,17 @@ export const sidebarMenuData: SidebarMenuItem[] = [
     label: 'Zamonaviy ota-ona',
     icon: 'Users2',
     link: '/fotogalereya',
+    children: [
+      { label: '1-mavzu', link: '/fotogalereya/bir' },
+      { label: '2-mavzu', link: '/fotogalereya/ikki' },
+      { label: '3-mavzu', link: '/fotogalereya/uch' },
+      { label: '4-mavzu', link: '/fotogalereya/tort' },
+      { label: '5-mavzu', link: '/fotogalereya/besh' },
+    ],
   },
   {
-    label: 'Ota-onalar sinergiyasi',
-    icon: 'Handshake',
+    label: 'Innavatsion oila',
+    icon: 'Atom',
     link: '/osmon-xaritasi',
   },
   {
@@ -65,14 +91,14 @@ export const sidebarMenuData: SidebarMenuItem[] = [
       { label: 'Instagram', link: '/onlayn-kuzatuvlar/instagram' },
     ],
   },
-  // {
-  //   label: 'Testlar',
-  //   icon: 'NotebookText',
-  //   link: '/testlar',
-  // },
-  // {
-  //   label: 'Metodik yordam',
-  //   icon: 'PencilRuler',
-  //   link: '/metodik-yordam',
-  // },
+  {
+    label: 'Testlar',
+    icon: 'NotebookText',
+    link: '/testlar',
+  },
+  {
+    label: 'Tahlil uchun savollar',
+    icon: 'PencilRuler',
+    link: '/metodik-yordam',
+  },
 ];
