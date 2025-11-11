@@ -26,26 +26,50 @@ export const lectureSections: LectureSection[] = [
     ],
   },
   {
-    label: 'Malumot',
+    label: 'Muhammad Quronov',
     type: 'single',
-    basePath: '/fan-hujjatlar/malumot',
+    basePath: '/fan-hujjatlar/kitob',
     data: [
       {
         id: 1,
         title: 'Muallif',
-        src: '/resource/fan-hujjatlari/malumot.pdf',
+        src: '/resource/fan-hujjatlari/kitob.pdf',
+      },
+    ],
+  },
+  {
+    label: 'Ota ona haqida malumot',
+    type: 'single',
+    basePath: '/fan-hujjatlar/ota_ona_haqida',
+    data: [
+      {
+        id: 1,
+        title: 'Ota ona haqida malumot',
+        src: '/resource/fan-hujjatlari/ota_ona_haqida.pdf',
       },
     ],
   },
   {
     label: 'Xorij oilasidagi tarbiyavaiy hayot',
     type: 'single',
-    basePath: '/fan-hujjatlar/fan-sillabusi',
+    basePath: '/fan-hujjatlar/xorij_oilasida_tarbiya',
     data: [
       {
         id: 1,
-        title: 'Xorij oilasidagi tarbiyasi',
-        src: '/resource/fan-hujjatlari/fan-sillabusi.PDF',
+        title: 'Xorij oilasidagi tarbiya',
+        src: '/resource/fan-hujjatlari/xorij_oilasida_tarbiya.pdf',
+      },
+    ],
+  },
+  {
+    label: 'Psixologik va pedagogik maslahatlar',
+    type: 'single',
+    basePath: '/fan-hujjatlar/maslahat',
+    data: [
+      {
+        id: 1,
+        title: 'Psiologik va pedagogik maslahatlar',
+        src: '/resource/fan-hujjatlari/maslahat.pdf',
       },
     ],
   },

@@ -29,10 +29,10 @@ export const sidebarMenuData: SidebarMenuItem[] = [
         label: "Ota-ona mediaxavfsizlik bo'yicha 30 ta tavsiya",
         link: '/fan-hujjatlar/mediaxavfsizlik',
       },
-      {
-        label: 'Ota-ona va maktab hamkorlik',
-        link: '/fan-hujjatlar/hamkorlik',
-      },
+      // {
+      //   label: 'Ota-ona va maktab hamkorlik',
+      //   link: '/fan-hujjatlar/hamkorlik',
+      // },
       {
         label: 'Psixolog va pedagogik maslahatlar',
         link: '/fan-hujjatlar/maslahatlar',
@@ -100,9 +100,9 @@ export const sidebarMenuData: SidebarMenuItem[] = [
     icon: 'NotebookText',
     link: '/testlar',
   },
-  {
-    label: 'Tahlil uchun savollar',
-    icon: 'PencilRuler',
-    link: '/metodik-yordam',
-  },
+  // {
+  //   label: 'Tahlil uchun savollar',
+  //   icon: 'PencilRuler',
+  //   link: '/metodik-yordam',
+  // },
 ];

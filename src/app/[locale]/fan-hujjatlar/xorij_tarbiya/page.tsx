@@ -4,7 +4,7 @@ import LectureTable from '@/widgets/file-list/ui';
 import LectureDetail from '@/widgets/file-list/ui/FileDetail';
 
 export default function Page() {
-  const basePath = '/fan-hujjatlar/muallif';
+  const basePath = '/fan-hujjatlar/xorij_oilasida_tarbiya';
   const section = lectureSections.find((s) => s.basePath === basePath);
 
   if (!section) return <div className="p-4">Malumot topilmadi</div>;
