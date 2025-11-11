@@ -21,7 +21,19 @@ export const lectureSections: LectureSection[] = [
       {
         id: 1,
         title: 'Muallif',
-        src: '/resource/fan-hujjatlari/muallif.PPTX',
+        src: '/resource/fan-hujjatlari/muallif.pdf',
+      },
+    ],
+  },
+  {
+    label: 'Malumot',
+    type: 'single',
+    basePath: '/fan-hujjatlar/malumot',
+    data: [
+      {
+        id: 1,
+        title: 'Muallif',
+        src: '/resource/fan-hujjatlari/malumot.pdf',
       },
     ],
   },

@@ -18,8 +18,12 @@ export const sidebarMenuData: SidebarMenuItem[] = [
     children: [
       { label: 'Muallif haqida', link: '/fan-hujjatlar/muallif' },
       {
+        label: 'Ota-ona haqida malumot',
+        link: '/fan-hujjatlar/ota_ona_malumot',
+      },
+      {
         label: 'Xorij oilasidagi tarbiyaviy hayot',
-        link: '/fan-hujjatlar/xorij_tabiya',
+        link: '/fan-hujjatlar/xorij_tarbiya',
       },
       {
         label: "Ota-ona mediaxavfsizlik bo'yicha 30 ta tavsiya",
