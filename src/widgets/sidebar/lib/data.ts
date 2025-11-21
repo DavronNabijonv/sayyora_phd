@@ -6,38 +6,15 @@ export type SidebarMenuItem = {
 };
 
 export const sidebarMenuData: SidebarMenuItem[] = [
-  // {
-  //   label: 'Bosh sahifa',
-  //   icon: 'House',
-  //   link: '/',
-  // },
+  {
+    label: 'Bosh sahifa',
+    icon: 'House',
+    link: '/',
+  },
   {
     label: 'Ota-onalar sinergiyasi',
     icon: 'Handshake',
     link: '/fan-hujjatlar',
-    children: [
-      { label: 'Muallif haqida', link: '/fan-hujjatlar/muallif' },
-      {
-        label: 'Ota-ona haqida malumot',
-        link: '/fan-hujjatlar/ota_ona_malumot',
-      },
-      {
-        label: 'Xorij oilasidagi tarbiyaviy hayot',
-        link: '/fan-hujjatlar/xorij_tarbiya',
-      },
-      {
-        label: "Ota-ona mediaxavfsizlik bo'yicha 30 ta tavsiya",
-        link: '/fan-hujjatlar/mediaxavfsizlik',
-      },
-      // {
-      //   label: 'Ota-ona va maktab hamkorlik',
-      //   link: '/fan-hujjatlar/hamkorlik',
-      // },
-      {
-        label: 'Psixolog va pedagogik maslahatlar',
-        link: '/fan-hujjatlar/maslahatlar',
-      },
-    ],
   },
   {
     label: 'Tarbiyaviy transfarmatsiya',
@@ -59,6 +36,7 @@ export const sidebarMenuData: SidebarMenuItem[] = [
     icon: 'Users2',
     link: '/fotogalereya',
     children: [
+      { label: 'Jadval', link: '/fotogalereya/jadval' },
       { label: '1-mavzu', link: '/fotogalereya/bir' },
       { label: '2-mavzu', link: '/fotogalereya/ikki' },
       { label: '3-mavzu', link: '/fotogalereya/uch' },
@@ -75,6 +53,11 @@ export const sidebarMenuData: SidebarMenuItem[] = [
     label: 'Axborot tarbiyasi',
     icon: 'MonitorSmartphone',
     link: '/astronomik-ilovalar',
+  },
+  {
+    label: 'Ustoz o`gitlari audio saboqlar',
+    icon: 'Headphones',
+    link: '/audiodarslar',
   },
   {
     label: 'Rivojlanuvchi oila',

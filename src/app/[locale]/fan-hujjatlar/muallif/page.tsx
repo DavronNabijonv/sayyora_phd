@@ -2,6 +2,7 @@
 import { lectureSections } from '@/widgets/file-list/lib/data';
 import LectureTable from '@/widgets/file-list/ui';
 import LectureDetail from '@/widgets/file-list/ui/FileDetail';
+import SayyoraEntrancePage from '@/widgets/muallif_haqida';
 
 export default function Page() {
   const basePath = '/fan-hujjatlar/muallif';
@@ -15,11 +16,14 @@ export default function Page() {
 
   if (section.type === 'single') {
     return (
-      <LectureDetail
-        data={section.data}
-        basePath={section.basePath}
-        type="single"
-      />
+      <div>
+        <SayyoraEntrancePage />
+        <LectureDetail
+          data={section.data}
+          basePath={section.basePath}
+          type="single"
+        />
+      </div>
     );
   }
 
