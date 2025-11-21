@@ -12,20 +12,15 @@ export const sidebarMenuData: SidebarMenuItem[] = [
     link: '/',
   },
   {
-    label: 'Ota-onalar sinergiyasi',
+    label: 'Tarbiya vaksinasi',
     icon: 'Handshake',
     link: '/fan-hujjatlar',
   },
-  {
-    label: 'Tarbiyaviy transfarmatsiya',
-    icon: 'RefreshCw',
-    link: '/fan-malumotlari',
-  },
-  {
-    label: 'Pedagogik yangilanish',
-    icon: 'BookOpen',
-    link: '/darslik-adabiyot',
-  },
+  // {
+  //   label: 'Tarbiyaviy transfarmatsiya',
+  //   icon: 'RefreshCw',
+  //   link: '/fan-malumotlari',
+  // },
   {
     label: 'Intellektual tarbiya',
     icon: 'Brain',
@@ -49,6 +44,11 @@ export const sidebarMenuData: SidebarMenuItem[] = [
     icon: 'Atom',
     link: '/osmon-xaritasi',
   },
+  // {
+  //   label: 'Pedagogik yangilanish',
+  //   icon: 'BookOpen',
+  //   link: '/darslik-adabiyot',
+  // },
   {
     label: 'Axborot tarbiyasi',
     icon: 'MonitorSmartphone',
@@ -59,11 +59,11 @@ export const sidebarMenuData: SidebarMenuItem[] = [
     icon: 'Headphones',
     link: '/audiodarslar',
   },
-  {
-    label: 'Rivojlanuvchi oila',
-    icon: 'Sprout',
-    link: '/virtual-labaratorya',
-  },
+  // {
+  //   label: 'Rivojlanuvchi oila',
+  //   icon: 'Sprout',
+  //   link: '/virtual-labaratorya',
+  // },
   {
     label: 'Tarbiyaviy innovatsiya',
     icon: 'Rocket',
