@@ -38,6 +38,18 @@ export const lectureSections: LectureSection[] = [
     ],
   },
   {
+    label: 'Muhammad Quronov',
+    type: 'single',
+    basePath: '/fan-hujjatlar/yol',
+    data: [
+      {
+        id: 1,
+        title: 'Muallif',
+        src: '/resource/fan-hujjatlari/yol.pdf',
+      },
+    ],
+  },
+  {
     label: 'Ota ona haqida malumot',
     type: 'single',
     basePath: '/fan-hujjatlar/ota_ona_haqida',

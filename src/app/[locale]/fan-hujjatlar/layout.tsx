@@ -31,11 +31,16 @@ export default function Layout({ children }: { children: ReactNode }) {
       path: `/${locale}/fan-hujjatlar/maslahatlar`,
       name: 'Psixolog va pedagogik maslahatlar',
     },
+    {
+      id: 6,
+      path: `/${locale}/fan-hujjatlar/yol`,
+      name: "Tarbiyaviy yo'l",
+    },
   ];
 
   return (
     <div>
-      <div className="py-5 flex items-center flex-wrap gap-3 justify-between">
+      <div className="py-5 flex items-center gap-3 justify-between">
         {routes.map((items) => {
           const isActive = pathname === items.path;
 
@@ -44,7 +49,7 @@ export default function Layout({ children }: { children: ReactNode }) {
               key={items.id}
               href={items.path}
               className={`
-                rounded-lg border-2 px-2 py-1 text-lg font-medium
+                rounded-lg border-2 px-2 py-1 text-lg font-medium text-center
                 ${isActive ? 'bg-primary text-white border-primary' : 'text-primary border-primary'}
               `}
             >

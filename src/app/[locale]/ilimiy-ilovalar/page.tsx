@@ -26,75 +26,79 @@ export default function Page() {
   const cards = [
     {
       title: 'Raqamli pedagogika',
-      text: 'Oilada texnologiyani to‘g‘ri yo‘naltirish: bolalar uchun foydali ilovalar, onlayn loyihalar va ta’limiy kontentlardan birgalikda foydalanish.',
+      text: 'Oilada texnologiyani to‘g‘ri va sokin ritmda yo‘naltirish: bolalar uchun foydali ilovalar, birgalikda onlayn tajribalar va ta’limiy kontentlardan izchil foydalanish.',
     },
     {
       title: 'Hissiy intellekt (EQ)',
-      text: 'Bola his-tuyg‘ularini anglaydi, boshqaradi va ifoda etadi. Ota-ona jazolash o‘rniga muloqotni tanlaydi.',
+      text: 'Bola his-tuyg‘ularini tushunadi, boshqaradi va erkin ifoda etadi. Ota-ona jazodan ko‘ra, sokin muloqotni tanlaydi.',
     },
     {
       title: 'Hamkorlikdagi tarbiya',
-      text: 'Ota-ona va bola o‘rtasida o‘rganish sheriklik asosida kechadi. Tarbiya — ikki tomonlama jarayon.',
+      text: 'Tarbiya — bir tomonlama nazorat emas, balki sheriklik. O‘rganish jarayoni qulay, tinch va iliq muhitda kechadi.',
     },
     {
       title: 'Moslashuvchan qadriyatlar',
-      text: 'An’anani saqlab, zamon talabiga moslashish. Oila qadriyatlari o‘sish va yangilanishga ochiq bo‘ladi.',
+      text: 'An’analar saqlanadi, zamon talabi bilan uyg‘unlashadi. Oila qadriyatlari tinch rivojlanishga intiladi.',
     },
     {
       title: 'Ijodkorlik va tanqidiy fikr',
-      text: 'Farzand o‘z fikrini erkin bildiradi, ijodiy yechim topishni o‘rganadi va har bir g‘oya qadrlanadi.',
+      text: 'Farzand o‘z fikrini erkin bildiradi, ijod qiladi va g‘oyalar qadrlanadi. Har bir savol — yangi kashfiyot.',
     },
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-indigo-50 to-white py-16 px-6">
+    <div className="min-h-screen bg-gradient-to-b from-[#d7efff] via-[#eefaff] to-[#f7fcff] py-20 px-6">
       <motion.div
-        className="max-w-6xl mx-auto text-center mb-14"
-        initial={{ opacity: 0, y: 30 }}
+        className="max-w-5xl mx-auto text-center mb-20"
+        initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
+        transition={{ duration: 0.8 }}
       >
-        <h1 className="text-4xl md:text-5xl font-bold text-indigo-700 mb-4">
-          🌱 Tarbiyaviy innovatsiya
+        <h1 className="text-5xl md:text-6xl font-extrabold text-[#2b5876] mb-6 drop-shadow-sm">
+          🌤️ Tarbiyaviy Innovatsiya
         </h1>
-        <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-          Tarbiyaviy innovatsiya — bu oilada tarbiya jarayonini yangicha uslubda
-          tashkil etish, texnologiya, hissiy yondashuv va ijodkorlikni
-          uyg‘unlashtirish orqali bolani zamon bilan birga o‘stirishdir.
+        <p className="text-xl md:text-2xl text-[#4a7080] leading-relaxed max-w-3xl mx-auto">
+          Ushbu sahifa sizni tinchlantirish uchun yaratilgan. Yumshoq ranglar,
+          sokin animatsiyalar va foydali ma&rdquo;lumotlar orqali siz nafaqat
+          o&rdquo;qiysiz — dam ham olasiz.
         </p>
       </motion.div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
         {cards.map((card, i) => (
           <motion.div
             key={i}
-            className="bg-white rounded-2xl shadow-md p-6 border border-gray-100 hover:shadow-xl transition-all duration-300"
-            initial={{ opacity: 0, y: 40 }}
+            className="bg-white/70 backdrop-blur-md rounded-3xl shadow-lg p-8 border border-white hover:shadow-2xl transition-all duration-300"
+            initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: i * 0.1 }}
+            transition={{ duration: 0.6, delay: i * 0.15 }}
+            whileHover={{ scale: 1.03 }}
           >
-            <h2 className="text-2xl font-semibold text-indigo-600 mb-3">
+            <h2 className="text-2xl font-semibold text-[#2b5876] mb-4">
               {card.title}
             </h2>
-            <p className="text-gray-600 leading-relaxed">{card.text}</p>
+            <p className="text-[#4a7080] leading-relaxed text-lg">
+              {card.text}
+            </p>
           </motion.div>
         ))}
       </div>
 
       <motion.div
-        className="max-w-4xl mx-auto mt-16 bg-indigo-100 rounded-2xl p-8 shadow-inner text-center"
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.8 }}
+        className="max-w-4xl mx-auto mt-24 bg-gradient-to-br from-[#cde7ff] to-[#eaf6ff] rounded-3xl p-10 shadow-xl text-center border border-white/60 backdrop-blur-sm"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
       >
-        <h3 className="text-2xl font-semibold text-indigo-700 mb-4">
-          💡 Ideal innovatsion oila modeli
+        <h3 className="text-3xl font-bold text-[#2b5876] mb-6">
+          ✨ Ideal sokin innovatsion oila
         </h3>
-        <p className="text-gray-700 leading-relaxed text-lg">
-          “Oila — bu eng samimiy innovatsion makon.” Unda ota — yo‘l
-          ko‘rsatuvchi, ona — motivator, bola esa — ijodkor shaxsdir. Har kuni
-          yangilik sinovdan o‘tadi, har g‘oya esa oila qadriyatiga aylanadi.
+        <p className="text-[#4a7080] leading-relaxed text-xl max-w-2xl mx-auto">
+          &rdquo;Oila — insonning eng sokin va eng ilhom beruvchi makoni.&rdquo;
+          Bu yerda ota — yo&rdquo;l ko&rdquo;rsatuvchi, ona — ruhlantiruvchi,
+          bola esa — kashfiyotchi shaxs. Har bir kun tinch innovatsiyalar bilan
+          boyib boradi.
         </p>
       </motion.div>
     </div>
