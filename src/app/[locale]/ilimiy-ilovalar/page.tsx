@@ -21,6 +21,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Page() {
   const cards = [
@@ -47,7 +48,16 @@ export default function Page() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#d7efff] via-[#eefaff] to-[#f7fcff] py-20 px-6">
+    <div className="relative min-h-screen py-20 px-6">
+      <div className="absolute top-0 left-0 w-full h-full -z-0">
+        <Image
+          src="/oila3.jpg"
+          alt="back image"
+          fill
+          className="object-cover object-bottom"
+        />
+      </div>
+
       <motion.div
         className="max-w-5xl mx-auto text-center mb-20"
         initial={{ opacity: 0, y: 40 }}
