@@ -2,11 +2,9 @@
 import { lectureSections } from '@/widgets/file-list/lib/data';
 import LectureTable from '@/widgets/file-list/ui';
 import LectureDetail from '@/widgets/file-list/ui/FileDetail';
-import SayyoraEntrancePage from '@/widgets/muallif_haqida';
-import Hikoya from '@/widgets/muallif_haqida/hikoya';
 
-export default function Page() {
-  const basePath = '/fan-hujjatlar/muallif';
+export default function Hikoya() {
+  const basePath = '/fan-hujjatlar/hikoya';
   const section = lectureSections.find((s) => s.basePath === basePath);
 
   if (!section) return <div className="p-4">Malumot topilmadi</div>;
@@ -18,8 +16,6 @@ export default function Page() {
   if (section.type === 'single') {
     return (
       <div>
-        <SayyoraEntrancePage />
-        <Hikoya />
         <LectureDetail
           data={section.data}
           basePath={section.basePath}

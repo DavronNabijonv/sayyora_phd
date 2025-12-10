@@ -26,6 +26,18 @@ export const lectureSections: LectureSection[] = [
     ],
   },
   {
+    label: 'Muallif',
+    type: 'single',
+    basePath: '/fan-hujjatlar/hikoya',
+    data: [
+      {
+        id: 1,
+        title: 'Muallif',
+        src: '/resource/fan-hujjatlari/hikoya.pdf',
+      },
+    ],
+  },
+  {
     label: 'Muhammad Quronov',
     type: 'single',
     basePath: '/fan-hujjatlar/kitob',

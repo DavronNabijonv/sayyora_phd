@@ -51,9 +51,9 @@ export default function SayyoraEntrancePage() {
           <section className="mb-8">
             <h2 className="text-lg font-semibold">Hozirgi lavozim</h2>
             <p className="mt-2 text-sm text-gray-700 dark:text-gray-300">
-              2023 yil 4 yanvardan — <strong>Tayanch doktarant</strong> at T.N.
-              Qori Niyoziy nomidagi O&lsquo;zbekiston Pedagogika fanlari
-              ilmiy-tadqiqot instituti.
+              2023 yil 4 yanvardan — <strong>Tayanch doktarant</strong> Qori
+              Niyoziy nomidagi Тarbiya Pedagogikasi milliy instituti tayanch
+              doktaranti
             </p>
           </section>
 
@@ -80,8 +80,8 @@ export default function SayyoraEntrancePage() {
               <div>
                 <div className="font-medium">2014–2023</div>
                 <div className="text-sm">
-                  Nizomiy nomidagi Toshkent davlat pedagogika universiteti —
-                  “Umumiy pedagogika” kafedrasi, stajyor o&lsquo;qituvchisi
+                  Nizomiy nomidagi Toshkent davlat pedagogika universiteti
+                  “Umumiy pedagogika” kafedrasi o&lsquo;qituvchisi
                 </div>
               </div>
 
@@ -92,17 +92,6 @@ export default function SayyoraEntrancePage() {
                 </div>
               </div>
             </div>
-          </section>
-
-          <section>
-            <h2 className="text-lg font-semibold">
-              Qo&lsquo;shimcha ma&lsquo;lumot
-            </h2>
-            <p className="mt-2 text-sm text-gray-700 dark:text-gray-300">
-              Agar sizga CV formatida eksport, chop etish uchun print-friendy
-              sahifa yoki boshqa tilga tarjima kerak bo&lsquo;lsa, ayting — men
-              yordam beraman.
-            </p>
           </section>
         </div>
 
